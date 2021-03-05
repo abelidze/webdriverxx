@@ -11,6 +11,7 @@ struct Firefox : Capabilities { // copyable
 		SetBrowserName(browser::Firefox);
 		SetVersion("");
 		SetPlatform(platform::Any);
+		SetAcceptInsecureCerts(true);
 	}
 
 	WEBDRIVERXX_PROPERTIES_BEGIN(Firefox)

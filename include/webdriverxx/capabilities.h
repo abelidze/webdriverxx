@@ -180,6 +180,7 @@ struct Capabilities : JsonObject { // copyable
 	WEBDRIVERXX_PROPERTY(BrowserConnectionEnabled, "browserConnectionEnabled", bool)
 	WEBDRIVERXX_PROPERTY(WebStorageEnabled, "webStorageEnabled", bool)
 	WEBDRIVERXX_PROPERTY(AcceptSslCerts, "acceptSslCerts", bool)
+	WEBDRIVERXX_PROPERTY(AcceptInsecureCerts, "acceptInsecureCerts", bool)
 	WEBDRIVERXX_PROPERTY(Rotatable, "rotatable", bool)
 	WEBDRIVERXX_PROPERTY(NativeEvents, "nativeEvents", bool)
 	WEBDRIVERXX_PROPERTY(Proxy, "proxy", Proxy)
